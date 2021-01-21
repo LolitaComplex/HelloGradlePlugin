@@ -38,7 +38,7 @@ def key = properties.getProperty("bintray.apikey")
 apply plugin: 'com.novoda.bintray-release'
 
 publish {
-    userOrg = "MadProgramer"
+    userOrg = "mengqidlufei8932"
     repoName = "HelloJCenter"
     groupId = "com.plugin.hello"
     artifactId = "hello-plugin"
@@ -46,8 +46,8 @@ publish {
     bintrayUser = username
     bintrayKey = key
     desc = "第一个发布的插件"
-    website = ""
-    repository = ""
+    website = "https://github.com/LolitaComplex/HelloGradlePlugin"
+    repository = "git@github.com:LolitaComplex/HelloGradlePlugin.git"
     autoPublish = true
     dryRun = false
 }
